@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'blogs#index'
   get 'sessions/new'
 
   get 'sessions/destroy'
